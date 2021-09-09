@@ -1,0 +1,21 @@
+{
+  "name": "learnwebpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack --entry ./index.js -o ./dist/",
+    "build": "npm run webpack -- --mode production",
+    "dev": "npm run webpack -- --mode development"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "boxen": "^5.0.1",
+    "webpack": "^5.52.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.8.0"
+  }
+}
